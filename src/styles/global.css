@@ -1,0 +1,15 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300";
+@import "//fonts.googleapis.com/css?family=Fira+Sans:300";
+@import "//code.ionicframework.com/ionicons/1.4.1/css/ionicons.min.css";
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f1f3f5 !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color: #50505a !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
