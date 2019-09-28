@@ -1,0 +1,416 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/devbytes/commons.7c61f98b047371f24a1e.css">@import url(https://fonts.googleapis.com/icon?family=Material+Icons);@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);@import url(//fonts.googleapis.com/css?family=Fira+Sans:300);@import url(//code.ionicframework.com/ionicons/1.4.1/css/ionicons.min.css);body{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#f1f3f5!important;font-family:Source Sans Pro,sans-serif!important;color:#50505a!important;line-height:1.6!important;margin:0!important}</style><meta name="generator" content="Gatsby 2.15.20"/><style data-styled="jbGnLq boKRj" data-styled-version="4.3.2">
+/* sc-component-id: BlogButton__Styles-gs7lgc-0 */
+.boKRj .btn-round{width:48px;height:48px;border-radius:50%;background:linear-gradient(5deg,#745fb5,#9066b8);display:block;position:fixed;top:90px;left:90px;} .boKRj .btn-round a{border:0;margin-right:20px;display:inline-block;width:48px;height:48px;line-height:48px;font-size:32px;text-align:center;} .boKRj .btn-round i{fill:white;color:white;-webkit-transition:-webkit-transform 250ms ease,color 250ms linear;-webkit-transition:transform 250ms ease,color 250ms linear;transition:transform 250ms ease,color 250ms linear;}
+/* sc-component-id: blog-post__Styles-sc-7gkdnd-0 */
+.jbGnLq .post-layout{padding:90px 0;font-family:-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;} .jbGnLq .post-title{text-align:center;font-weight:200;margin:0;color:#345;} .jbGnLq .post-text{margin-top:30px;}</style><link as="script" rel="preload" href="/devbytes/app-c7efdaee0dbb547b65e8.js"/><link as="script" rel="preload" href="/devbytes/component---src-templates-blog-post-js-f8179971dc40a8239b9e.js"/><link as="script" rel="preload" href="/devbytes/commons-7fe9668f210c3b2fa470.js"/><link as="script" rel="preload" href="/devbytes/webpack-runtime-bdf44519b9be067c2c5d.js"/><link as="fetch" rel="preload" href="/devbytes/page-data/blog-pages/markdown-styling/page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="blog-post__Styles-sc-7gkdnd-0 jbGnLq"><div class="BlogButton__Styles-gs7lgc-0 boKRj"><div class="btn-round"><a href="/devbytes/blog"><i class="material-icons">arrow_back</i></a></div></div><div class="post-layout"><div class="col-md-6 offset-md-3"><h1 class="post-title">markdown styling</h1><div class="post-text"><div><h1 style="text-align:center;border-top: solid 1px rgba(102,119,136,.2);padding-top:16px;"></h1>
+<h1>This is an h1 tag</h1>
+<h2>This is an h2 tag</h2>
+<h3>This is an h3 tag</h3>
+<h4>This is an h4 tag</h4>
+<h5>This is an h5 tag</h5>
+<h6>This is an h6 tag</h6>
+<p><em>This text will be italic</em>
+<em>This will also be italic</em></p>
+<p><strong>This text will be bold</strong>
+<strong>This will also be bold</strong></p>
+<p><em>You <strong>can</strong> combine them</em></p>
+<ul>
+<li>Item 1</li>
+<li>
+<p>Item 2</p>
+<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>
+<p>Item 3</p>
+<ol>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ol>
+</li>
+</ul>
+<p><img src="/images/logo.png" alt="GitHub Logo">
+Format: <img src="url" alt="Alt Text"></p>
+<p><a href="http://github.com">http://github.com</a> - automatic!
+<a href="http://github.com">GitHub</a></p>
+<p>As Kanye West said:</p>
+<pre><code>> We're living the future so
+> the present is our past.
+</code></pre>
+<p>I think you should use an
+<code>&#x3C;addr></code> element here instead.</p>
+<pre><code class="language-javascript">function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+</code></pre>
+<pre><code>function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+
+def foo():
+if not bar:
+    return True
+
+- [x] @mentions, #refs, [links](), **formatting**, and &#x3C;del>tags&#x3C;/del> supported
+</code></pre>
+<ul>
+<li class="task-list-item"><input type="checkbox" checked disabled> list syntax required (any unordered or ordered list supported)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> this is a complete item</li>
+<li class="task-list-item"><input type="checkbox" disabled> this is an incomplete item</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content from cell 1</td>
+<td>Content from cell 2</td>
+</tr>
+<tr>
+<td>Content in the first column</td>
+<td>Content in the second column</td>
+</tr>
+</tbody>
+</table>
+<h1 style="text-align:center;border-top: solid 1px rgba(102,119,136,.2);padding-top:16px;"></h1>
+<h2>Intro</h2>
+<h2>Variants</h2>
+<p>{: .-three-column}</p>
+<h3>H2 sections</h3>
+<p>| <code>-one-column</code> | |
+| <code>-two-column</code> | <em>(default)</em>|
+| <code>-three-column</code> | |
+| <code>-left-reference</code> | 3 columns<br><em>(short first column)</em> |
+| <code>-no-hide</code> | Don't hide H2 |</p>
+<p>See: <a href="#two-columns">H2 sections</a></p>
+<h3>H3 sections</h3>
+<p>| <code>-prime</code> | Highlight |</p>
+<p>See: <a href="#h3-sections-1">H3 sections</a></p>
+<h3>Tables</h3>
+<p>| <code>-bold-first</code> | Bold first column |
+| <code>-headers</code> | Show headers |
+| <code>-left-align</code> | Don't right align last column |
+| <code>-mute-em</code> | Lower opacity for italics |
+| <code>-no-wrap</code> | Don't wrap text |
+| <code>-shortcuts</code> | Shortcut keys |</p>
+<p>See: <a href="#tables-1">Tables</a></p>
+<h3>Code</h3>
+<p>| <code>-box-chars</code> | Less line height<br><em>for box drawing chars</em> |
+| <code>-setup</code> | Gray background |
+| <code>-wrap</code> | Enables line-wrapping |</p>
+<p>See: <a href="#code-1">Code</a></p>
+<h3>Paragraphs</h3>
+<p>| <code>-setup</code> | Gray background |
+| <code>-crosslink</code> | Has arrow on the link |
+{: .-gray}</p>
+<p>See: <a href="#paragraphs-1">Paragraphs</a></p>
+<h3>Lists</h3>
+<p>| <code>-also-see</code> | Lighter background |
+| <code>-four-column</code> | |
+| <code>-six-column</code> | |</p>
+<p>See: <a href="#lists-1">Lists</a></p>
+<h3>Adding variants</h3>
+<p>{: .-prime}</p>
+<pre><code>## Section
+{: .-two-column}
+</code></pre>
+<p>Devhints uses Kramdown, and supports adding classes via Kramdown's syntax.</p>
+<h2>H3 sections</h2>
+<p>{: .-three-column}</p>
+<h3>Supported</h3>
+<p>Each section can have the following children:</p>
+<h4>White</h4>
+<ul>
+<li><code>pre</code></li>
+<li><code>ul</code></li>
+<li><code>table</code></li>
+</ul>
+<h4>Gray</h4>
+<ul>
+<li><code>p</code></li>
+<li><code>h4</code></li>
+</ul>
+<h3>Prime section</h3>
+<p>{: .-prime}</p>
+<p>This is a section with <code>{: .-prime}</code>. Notice the fancy highlight! Great for "getting started" kind of snippets.</p>
+<h3>H3 section</h3>
+<p>Every box is an H3 section. The box will encompass everything inside the body of the H3.</p>
+<p>This is a basic section with paragraphs in it.</p>
+<h2>Code</h2>
+<p>{: .-three-column}</p>
+<h3>Basic code</h3>
+<pre><code class="language-js">here.is(() => {
+  some.code()
+})
+</code></pre>
+<pre><code class="language-js">here.is.some.more()
+</code></pre>
+<p>Code blocks can be placed one after the other.</p>
+<p>See: <a href="/devbytes/">Cheatsheets</a></p>
+<h3>Code with headings</h3>
+<h4>index.js</h4>
+<p>{: .-file}</p>
+<pre><code class="language-js">here.is(() => {
+  some.code()
+})
+</code></pre>
+<h4>other.js</h4>
+<p>{: .-file}</p>
+<pre><code class="language-js">here.is.some.more()
+</code></pre>
+<p>Code blocks can have headings.</p>
+<h3>Highlighted lines</h3>
+<pre><code class="language-js">app.start(() => {
+  const port = app.server.port
+  console.log(`Started at ${port}`)
+})
+</code></pre>
+<p>{: data-line="3"}</p>
+<p>Add <code>{: data-line="3"}</code> to add line highlights.</p>
+<h3>Multiple highlights</h3>
+<pre><code class="language-js">app.start(() => {
+  const port = app.server.port
+  console.log(`Started at ${port}`)
+})
+</code></pre>
+<p>{: data-line="2,3"}</p>
+<p>Add <code>{: data-line="2,3"}</code> to add multiple line highlights.</p>
+<h3>Setup blocks</h3>
+<pre><code class="language-js">import React from 'react'
+</code></pre>
+<p>{: .-setup}</p>
+<pre><code class="language-js">class Hello extends React.Component {
+  render () {
+    return &#x3C;span>Hello&#x3C;/span>
+  }
+}
+</code></pre>
+<p>Add <code>{: .-setup}</code> to a <code>pre</code> or <code>table</code> or <code>ul</code>.</p>
+<h3>Long lines</h3>
+<pre><code class="language-js">function createNode(nodeName: string, options: { key: string }) {
+  return true
+}
+</code></pre>
+<p>Long lines will have scrollbars.</p>
+<h3>Line wrapping</h3>
+<pre><code class="language-js">&#x3C;script>(function(d,s){if(window.Promise&#x26;&#x26;[].includes&#x26;&#x26;Object.assign&#x26;&#x26;window.Map)return;var js,sc=d.getElementsByTagName(s)[0];js=d.createElement(s);js.src='https://cdn.polyfill.io/v2/polyfill.min.js';sc.parentNode.insertBefore(js, sc);}(document,'script'))&#x3C;/script>
+</code></pre>
+<p>{: .-wrap}</p>
+<p>Add <code>-wrap</code> to wrap long lines.</p>
+<h2>Lists</h2>
+<p>{: .-three-column}</p>
+<h3>Lists</h3>
+<ul>
+<li>This is</li>
+<li>a list</li>
+<li>with a few items</li>
+</ul>
+<p>Here's an extra paragraph after the list.</p>
+<h3>Lists with headings</h3>
+<h4>Part 1</h4>
+<ul>
+<li><code>createElement()</code></li>
+<li><code>componentDidMount()</code></li>
+<li><code>componentWillUnmount()</code></li>
+</ul>
+<h4>Part 2</h4>
+<ul>
+<li><code>shouldComponentUpdate()</code></li>
+<li><code>componentWillReceiveProps()</code></li>
+</ul>
+<p>Here's an extra paragraph after the list.</p>
+<h2>List columns</h2>
+<p>{: .-one-column}</p>
+<h3>Six columns</h3>
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+<li>Four</li>
+<li>Five</li>
+<li>Six</li>
+<li>Seven</li>
+<li>Eight</li>
+<li>Nine</li>
+<li>Ten</li>
+<li>Eleven
+{: .-six-column}</li>
+</ul>
+<p>Add <code>{: .-six-column}</code> to make large lists.</p>
+<h3>Four columns</h3>
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+<li>Four</li>
+<li>Five</li>
+<li>Six</li>
+<li>Seven</li>
+<li>Eight</li>
+<li>Nine</li>
+<li>Ten</li>
+<li>Eleven
+{: .-four-column}</li>
+</ul>
+<p>Add <code>{: .-four-column}</code> to make large lists.</p>
+<h3>Also see</h3>
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+<li>Four</li>
+<li>Five</li>
+<li>Six</li>
+<li>Seven</li>
+<li>Eight</li>
+<li>Nine</li>
+<li>Ten
+{: .-also-see}</li>
+</ul>
+<p>Add <code>{: .-also-see}</code>.</p>
+<h2>Paragraphs</h2>
+<p>{: .-three-column}</p>
+<h3>Basic paragraphs</h3>
+<p>This is a basic section with paragraphs in it. When paragraphs are the first elements in an H3 section's body, they appear as white.</p>
+<h3>Basic paragraphs</h3>
+<pre><code>···
+</code></pre>
+<p>When paragraphs appear after <code>pre</code>/<code>table</code>/<code>ul</code>, they appear with a gray background.</p>
+<h3>Preludes</h3>
+<p>Here's a prelude paragraph. Add <code>{: .-setup}</code> to make paragraphs appear with a gray background.
+{: .-setup}</p>
+<pre><code>···
+</code></pre>
+<h3>Crosslink</h3>
+<p>Add <code>{: .-crosslink}</code> to make big loud external links:</p>
+<pre><code>···
+</code></pre>
+<p><a href="/devbytes/">Home</a>
+{: .-crosslink}</p>
+<h2>Tables</h2>
+<p>{: .-three-column}</p>
+<h3>Basic table</h3>
+<h4>Date</h4>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>%m/%d/%Y</code></td>
+<td><code>06/05/2013</code></td>
+</tr>
+<tr>
+<td><code>%A, %B %e, %Y</code></td>
+<td><code>Sunday, June 5, 2013</code></td>
+</tr>
+<tr>
+<td><code>%b %e %a</code></td>
+<td><code>Jun 5 Sun</code></td>
+</tr>
+</tbody>
+</table>
+<h4>Time</h4>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>%H:%M</code></td>
+<td><code>23:05</code></td>
+</tr>
+<tr>
+<td><code>%I:%M %p</code></td>
+<td><code>11:05 PM</code></td>
+</tr>
+</tbody>
+</table>
+<p>This is a basic table with h4's.</p>
+<h3>Shortcuts</h3>
+<p>| <code>V</code> | Vector |
+| <code>P</code> | Pencil |
+| <code>T</code> | Text |
+| <code>L</code> | Line |
+| <code>R</code> | Rectangle |
+| <code>O</code> | Oval |
+| <code>U</code> | Rounded |
+{: .-shortcuts}</p>
+<p>Add <code>{: .-shortcuts}</code> to tables.</p>
+<h3>With headers</h3>
+<table>
+<thead>
+<tr>
+<th>Prefix</th>
+<th>Example</th>
+<th>What</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>//</code></td>
+<td><code>//hr[@class='edge']</code></td>
+<td>Anywhere</td>
+</tr>
+<tr>
+<td><code>./</code></td>
+<td><code>./a</code></td>
+<td>Relative</td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td><code>/html/body/div</code></td>
+<td>Root</td>
+</tr>
+</tbody>
+</table>
+<p>{: .-headers}</p>
+<p>Add <code>{: .-headers}</code> to add headers.</p>
+<h2>Two columns</h2>
+<h3>One</h3>
+<pre><code>···
+</code></pre>
+<h3>Two</h3>
+<pre><code>···
+</code></pre>
+<h2>Left reference</h2>
+<p>{: .-left-reference}</p>
+<h3>One</h3>
+<pre><code>···
+···
+···
+···
+···
+···
+···
+···
+</code></pre>
+<h3>Two</h3>
+<pre><code>···
+</code></pre>
+<h3>Three</h3>
+<pre><code>···
+</code></pre>
+<h2>One column</h2>
+<p>{: .-one-column}</p>
+<h3>One</h3>
+<pre><code>···
+</code></pre></div></div></div></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog-pages/markdown-styling/";window.webpackCompilationHash="c14f4717544df6c14aee";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-c7efdaee0dbb547b65e8.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-f8179971dc40a8239b9e.js"],"component---src-pages-blog-js":["/component---src-pages-blog-js-9e9f80f63af4e8e8eec0.js"],"component---src-pages-index-js":["/component---src-pages-index-js-de26eda9ef2cbbb44a6a.js"],"component---src-pages-my-files-js":["/component---src-pages-my-files-js-1af7bae91009e288fc67.js"]};/*]]>*/</script><script src="/devbytes/webpack-runtime-bdf44519b9be067c2c5d.js" async=""></script><script src="/devbytes/commons-7fe9668f210c3b2fa470.js" async=""></script><script src="/devbytes/component---src-templates-blog-post-js-f8179971dc40a8239b9e.js" async=""></script><script src="/devbytes/app-c7efdaee0dbb547b65e8.js" async=""></script></body></html>
